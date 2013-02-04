@@ -35,7 +35,7 @@
  *****************************************************************************/
 
 
-#include "WProgram.h"
+#include "Arduino.h"
 #include "WiServer.h"
 
 extern "C" {
