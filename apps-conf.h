@@ -39,7 +39,7 @@
 //#define APP_WEBSERVER
 //#define APP_WEBCLIENT
 //#define APP_SOCKAPP
-#define APP_UDPAPP
+//#define APP_UDPAPP
 //#define APP_WISERVER
 
 #ifdef APP_WEBSERVER
