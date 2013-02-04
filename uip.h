@@ -770,7 +770,7 @@ void uip_send(const void *data, int len);
 #define uip_mss()             (uip_conn->mss)
 
 /**
- * Set up a new UDP connection.
+ * Set up a new UDP connection.  
  *
  * This function sets up a new UDP connection. The function will
  * automatically allocate an unused local port for the new

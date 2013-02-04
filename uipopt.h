@@ -560,6 +560,7 @@ typedef struct httpd_state uip_tcp_appstate_t
  * uip_conn structure. This usually is typedef:ed to a struct holding
  * application state information.
  */
+typedef void uip_tcp_appstate_t;
 
 /**
  * \var typedef uip_udp_appstate_t
@@ -568,6 +569,8 @@ typedef struct httpd_state uip_tcp_appstate_t
  * uip_conn structure. This usually is typedef:ed to a struct holding
  * application state information.
  */
+typedef void uip_udp_appstate_t;
+
 /** @} */
 /** @} */
 
