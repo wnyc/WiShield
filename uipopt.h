@@ -103,6 +103,11 @@
 
 #include "uip-conf.h"
 
+void dummy_appcall(void);
+#define UIP_APPCALL dummy_appcall
+#define UIP_UDP_APPCALL dummy_appcall
+
+
 /*------------------------------------------------------------------------------*/
 
 /**

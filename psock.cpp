@@ -225,7 +225,7 @@ PT_THREAD(psock_generator_send(register struct psock *s,
   /* Call the generator function to generate the data in the
      uip_appdata buffer. */
   s->sendlen = generate(arg);
-  s->sendptr = uip_appdata;
+  s->sendptr = (const u8_t*)uip_appdata;
 
   s->state = STATE_NONE;
   do {
